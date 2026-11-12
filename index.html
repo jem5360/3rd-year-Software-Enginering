@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif;background-color: aquamarine;">
+    <h1 style="text-align: center;color:red;text-shadow:2px;">USER REGISTRATION FORM</h1>
+    <fieldset>
+        <legend>personal information</legend>
+    <label for="full name">full name:</label>
+    <input type="full name" style="background-color:yellowgreen ;" name="full name" id="full name" value="" placeholder="enter your name"><br>
+    <label for="email">email:</label>
+    <input type="email" style="background-color:yellowgreen ;" name="email" placeholder="enter your email"><br>
+    <label for="phone">phone number:</label>
+    <input type="tel" style="background-color:yellowgreen ;" id="phone" name="phone" placeholder="enter your phone number"><br>
+    <label for="date">date of birth:</label>
+    <input type="date" style="background-color:yellowgreen ;" id="date" name="date"><br>
+    <label for="gender">gender:</label>
+    <input type="radio" id="gender" name="gender" value="male">male
+    <input type="radio"  id="gender" name="gender" value="female">female
+    <br><br>
+    <label for="country">country:</label>
+    <select name="country" style="background-color:yellowgreen ;" id="country">
+        <option value="" disabled selected>select your country</option>
+        <option value="ken">kenya</option>
+        <option value="ethio">ethiopia</option>
+        <option value="sud">sudan</option>
+        <option value="sa">south africa</option>
+    </select><br>
+</fieldset>
+    <br><br>
+    <fieldset>
+        <legend>account security</legend>
+        <label for="username">username:</label>
+        <input type="username" style="background-color:yellowgreen ;" id="username" name="username" placeholder="enter your username"><br>
+        <label for="password">password:</label>
+        <input type="password" style="background-color:yellowgreen ;" id="password" name="password" placeholder="enter your password"><br>
+    </fieldset>
+<br>
+<input type="checkbox" id="terms" name="terms">
+<label for="terms">i agree to the terms and conditons</label><br>
+<button type="submit" style="color: blue; font-family:Arial;background-color:yellowgreen;" value="send">Register</button>
+<button type="reset" style="color: blue; font-family:Arial;background-color:yellowgreen;"  value="clear">clear form</button>
+
+</body>
+</html>
